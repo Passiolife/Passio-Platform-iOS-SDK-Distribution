@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E58859A2A0ABFFA00516D8C /* PassioPlatformSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 9E5885992A0ABFFA00516D8C /* PassioPlatformSDK */; };
 		9E655E4A24A5174D00B21355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E655E4124A5174D00B21355 /* AppDelegate.swift */; };
 		9E9EBEB924A5299A004645EB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9EBEB724A5299A004645EB /* Launch Screen.storyboard */; };
 		9E9EBEBB24A52CBB004645EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9EBEBA24A52CBA004645EB /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E58859A2A0ABFFA00516D8C /* PassioPlatformSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +132,9 @@
 			dependencies = (
 			);
 			name = PlatformSDK;
+			packageProductDependencies = (
+				9E5885992A0ABFFA00516D8C /* PassioPlatformSDK */,
+			);
 			productName = AppModule;
 			productReference = 9E4038AE23D7C3BE000E3DFC /* SDKApp.app */;
 			productType = "com.apple.product-type.application";
@@ -181,6 +186,9 @@
 				de,
 			);
 			mainGroup = 9E4038A523D7C3BE000E3DFC;
+			packageReferences = (
+				9E5885982A0ABFFA00516D8C /* XCRemoteSwiftPackageReference "Passio-Platform-iOS-SDK-Distribution" */,
+			);
 			productRefGroup = 9E4038AF23D7C3BE000E3DFC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -508,6 +516,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9E5885982A0ABFFA00516D8C /* XCRemoteSwiftPackageReference "Passio-Platform-iOS-SDK-Distribution" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Passiolife/Passio-Platform-iOS-SDK-Distribution";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9E5885992A0ABFFA00516D8C /* PassioPlatformSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9E5885982A0ABFFA00516D8C /* XCRemoteSwiftPackageReference "Passio-Platform-iOS-SDK-Distribution" */;
+			productName = PassioPlatformSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9E4038A623D7C3BE000E3DFC /* Project object */;
 }

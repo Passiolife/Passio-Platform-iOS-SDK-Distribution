@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "passio-platform-ios-sdk-distribution",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Passiolife/Passio-Platform-iOS-SDK-Distribution",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f657c5a59d2db69aaa65ee5bf20c5c1b0781619c"
+      }
+    }
+  ],
+  "version" : 2
+}
