@@ -61,8 +61,7 @@ let projectID = "Your_projectID"
 6. After you've made your selection, click "Next".
 7. You'll then be prompted to select the targets in your project that should include the package. Check the boxes for the targets you want to include.
 8. Click "Finish" to add the package to your project.
-9. That's it! Xcode will download and add the package to your project. You can now start using the package in your code.
-
+9. Xcode will download and add the PassioPlatformSDK to your project. You can now import and start using the PassioPlatformSDK.
 
 ### Edit your Info.plist
 
