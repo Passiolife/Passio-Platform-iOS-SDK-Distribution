@@ -32,7 +32,7 @@ In order to use the PassioSDK your app needs to meet the following minimal requi
 ![Drag and drop files to Framework](./READMEIMAGES/4ProjectNavigator.png)
 
 
-## Run the PlatformSDKDemoApp
+## Run the DemoAppPlatformSDK
 
   A fast and easy way to get started with the SDK is to test it inside of PlatformSDKDemoApp included in this package. Here are the steps:
   

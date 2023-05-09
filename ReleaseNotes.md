@@ -1,5 +1,10 @@
 # Passio Platform iOS SDK Release Notes
 
+
+## Version 2.3.1
+
+Released via swift package. 
+
 ## Version 2.2.15
 
 * If the SDK was configured with a certain version and you need to install previous version, in your  PassioConfiguration set overrideInstalledVersion to true.
