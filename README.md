@@ -51,7 +51,7 @@ let projectID = "Your_projectID"
 ***
 
 
-## Add the swift package to your project
+## Add the PassioPlatformSDK swift package to your project
 
 1. Open your Xcode project.
 2. Go to File > Swift Packages > Add Package Dependency.
