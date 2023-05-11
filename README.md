@@ -1,5 +1,6 @@
 # Passio Platform iOS SDK
 
+## Now available as Swift package at: https://github.com/Passiolife/Passio-Platform-iOS-SDK-Distribution
 ## Overview
 
 Welcome to Passio Platform iOS SDK!
