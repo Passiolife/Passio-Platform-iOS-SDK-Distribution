@@ -11,6 +11,7 @@
 		9E655E4A24A5174D00B21355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E655E4124A5174D00B21355 /* AppDelegate.swift */; };
 		9E9EBEB924A5299A004645EB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9EBEB724A5299A004645EB /* Launch Screen.storyboard */; };
 		9E9EBEBB24A52CBB004645EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9EBEBA24A52CBA004645EB /* Assets.xcassets */; };
+		9EA90A712A1FF44D00BA1B60 /* passio-logo-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EA90A702A1FF44D00BA1B60 /* passio-logo-color.png */; };
 		9EF91E43278F853C004286FA /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF91E42278F8535004286FA /* VideoViewController.swift */; };
 		9EF91E44278F853C004286FA /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EF91E41278F8535004286FA /* VideoViewController.xib */; };
 /* End PBXBuildFile section */
@@ -44,6 +45,7 @@
 		9E655E4124A5174D00B21355 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E9EBEB824A5299A004645EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		9E9EBEBA24A52CBA004645EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EA90A702A1FF44D00BA1B60 /* passio-logo-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "passio-logo-color.png"; sourceTree = "<group>"; };
 		9EF91E41278F8535004286FA /* VideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoViewController.xib; sourceTree = "<group>"; };
 		9EF91E42278F8535004286FA /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		9EFAA324262E217F00632EF4 /* SDKAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +102,7 @@
 				9E655E4124A5174D00B21355 /* AppDelegate.swift */,
 				9EF91E40278F8535004286FA /* VideoView */,
 				9E9EBEBA24A52CBA004645EB /* Assets.xcassets */,
+				9EA90A702A1FF44D00BA1B60 /* passio-logo-color.png */,
 				9E2BA23624A15A6900720B58 /* Info.plist */,
 			);
 			path = BaseSDK;
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E9EBEB924A5299A004645EB /* Launch Screen.storyboard in Resources */,
+				9EA90A712A1FF44D00BA1B60 /* passio-logo-color.png in Resources */,
 				9E9EBEBB24A52CBB004645EB /* Assets.xcassets in Resources */,
 				9EF91E44278F853C004286FA /* VideoViewController.xib in Resources */,
 			);
